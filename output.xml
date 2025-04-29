@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<robot generator="Robot 7.2.2 (Python 3.13.2 on win32)" generated="2025-04-29T17:10:18.114728" rpa="false" schemaversion="5">
+<robot generator="Robot 7.2.2 (Python 3.13.2 on win32)" generated="2025-04-29T17:22:24.430429" rpa="false" schemaversion="5">
 <suite id="s1" name="Bewell Test" source="C:\Users\User\Bewell-Test\Bewell_Test.robot">
 <test id="s1-t1" name="Open Browser" line="5">
 <kw name="New Browser" owner="Browser">
-<msg time="2025-04-29T17:10:18.218887" level="INFO">{"browser": "chromium", "headless": false, "chromiumSandbox": false, "devtools": false, "handleSIGHUP": true, "handleSIGINT": true, "handleSIGTERM": true, "slowMo": 0.0, "timeout": 30000.0, "tracesDir": "C:\\Users\\User\\Bewell-Test\\browser\\traces\\temp\\03812935-f940-4486-9085-19400e3266ec"}</msg>
-<msg time="2025-04-29T17:10:18.231123" level="INFO">Starting Browser process C:\Users\User\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\index.js using port 63518</msg>
-<msg time="2025-04-29T17:10:18.231208" level="INFO">Node startup parameters: ['node', 'C:\\Users\\User\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\Browser\\wrapper\\index.js', '63518']</msg>
-<msg time="2025-04-29T17:10:18.909930" level="INFO">Successfully created browser with options: {"browser":"chromium","headless":false,"chromiumSandbox":false,"devtools":false,"handleSIGHUP":true,"handleSIGINT":true,"handleSIGTERM":true,"slowMo":0,"timeout":30000,"tracesDir":"C:\\Users\\User\\Bewell-Test\\browser\\traces\\temp\\03812935-f940-4486-9085-19400e3266ec"}</msg>
+<msg time="2025-04-29T17:22:24.598162" level="INFO">{"browser": "chromium", "headless": false, "chromiumSandbox": false, "devtools": false, "handleSIGHUP": true, "handleSIGINT": true, "handleSIGTERM": true, "slowMo": 0.0, "timeout": 30000.0, "tracesDir": "C:\\Users\\User\\Bewell-Test\\browser\\traces\\temp\\60006447-e61c-4bd2-8792-28d9b1869af4"}</msg>
+<msg time="2025-04-29T17:22:24.617625" level="INFO">Starting Browser process C:\Users\User\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\index.js using port 50243</msg>
+<msg time="2025-04-29T17:22:24.617713" level="INFO">Node startup parameters: ['node', 'C:\\Users\\User\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\Browser\\wrapper\\index.js', '50243']</msg>
+<msg time="2025-04-29T17:22:26.246132" level="INFO">Successfully created browser with options: {"browser":"chromium","headless":false,"chromiumSandbox":false,"devtools":false,"handleSIGHUP":true,"handleSIGINT":true,"handleSIGTERM":true,"slowMo":0,"timeout":30000,"tracesDir":"C:\\Users\\User\\Bewell-Test\\browser\\traces\\temp\\60006447-e61c-4bd2-8792-28d9b1869af4"}</msg>
 <arg>headless=False</arg>
 <tag>BrowserControl</tag>
 <tag>Setter</tag>
 <doc>Create a new playwright Browser with specified options.</doc>
-<status status="PASS" start="2025-04-29T17:10:18.218397" elapsed="0.691718"/>
+<status status="PASS" start="2025-04-29T17:22:24.597704" elapsed="1.648616"/>
 </kw>
 <kw name="New Context" owner="Browser">
-<msg time="2025-04-29T17:10:18.911941" level="INFO">{
+<msg time="2025-04-29T17:22:26.248034" level="INFO">{
   "acceptDownloads": true,
   "bypassCSP": false,
   "forcedColors": "none",
@@ -24,175 +24,175 @@
   "reducedMotion": "no-preference",
   "serviceWorkers": "allow",
   "viewport": {
-    "height": 1080,
-    "width": 1920
+    "width": 1920,
+    "height": 1080
   }
 }</msg>
-<msg time="2025-04-29T17:10:18.922090" level="INFO">Successfully created context. </msg>
-<msg time="2025-04-29T17:10:18.922161" level="INFO">{'acceptDownloads': True, 'bypassCSP': False, 'forcedColors': 'none', 'ignoreHTTPSErrors': False, 'javaScriptEnabled': True, 'offline': False, 'reducedMotion': 'no-preference', 'serviceWorkers': 'allow', 'viewport': {'height': 1080, 'width': 1920}}</msg>
+<msg time="2025-04-29T17:22:26.260065" level="INFO">Successfully created context. </msg>
+<msg time="2025-04-29T17:22:26.260132" level="INFO">{'acceptDownloads': True, 'bypassCSP': False, 'forcedColors': 'none', 'ignoreHTTPSErrors': False, 'javaScriptEnabled': True, 'offline': False, 'reducedMotion': 'no-preference', 'serviceWorkers': 'allow', 'viewport': {'width': 1920, 'height': 1080}}</msg>
 <arg>viewport={'width': 1920, 'height': 1080}</arg>
 <tag>BrowserControl</tag>
 <tag>Setter</tag>
 <doc>Create a new BrowserContext with specified options.</doc>
-<status status="PASS" start="2025-04-29T17:10:18.910595" elapsed="0.011625"/>
+<status status="PASS" start="2025-04-29T17:22:26.246687" elapsed="0.013506"/>
 </kw>
 <kw name="New Page" owner="Browser">
-<msg time="2025-04-29T17:10:25.693701" level="INFO">Successfully initialized new page object and opened url: https://www.bewellstyle.com/</msg>
+<msg time="2025-04-29T17:22:33.143141" level="INFO">Successfully initialized new page object and opened url: https://www.bewellstyle.com/</msg>
 <arg>https://www.bewellstyle.com/</arg>
 <tag>BrowserControl</tag>
 <tag>Setter</tag>
 <doc>Open a new Page.</doc>
-<status status="PASS" start="2025-04-29T17:10:18.922474" elapsed="6.771399"/>
+<status status="PASS" start="2025-04-29T17:22:26.260444" elapsed="6.882852"/>
 </kw>
 <kw name="Wait For Elements State" owner="Browser">
-<msg time="2025-04-29T17:10:25.739488" level="INFO">Waited for Element with selector xpath=//*[@id="post-45869"]/div/div[1]/div/div/div/div[9]/div/div[34]/h3/a at state visible</msg>
+<msg time="2025-04-29T17:22:33.197665" level="INFO">Waited for Element with selector xpath=//*[@id="post-45869"]/div/div[1]/div/div/div/div[9]/div/div[34]/h3/a at state visible</msg>
 <arg>xpath=//*[@id="post-45869"]/div/div[1]/div/div/div/div[9]/div/div[34]/h3/a</arg>
 <arg>visible</arg>
 <arg>timeout=10s</arg>
 <tag>PageContent</tag>
 <tag>Wait</tag>
 <doc>Waits for the element found by ``selector`` to satisfy state option.</doc>
-<status status="PASS" start="2025-04-29T17:10:25.694214" elapsed="0.045394"/>
+<status status="PASS" start="2025-04-29T17:22:33.143560" elapsed="0.054224"/>
 </kw>
 <kw name="Click" owner="Browser">
-<msg time="2025-04-29T17:10:25.740206" level="INFO">Clicks the element 'xpath=//*[@id="post-45869"]/div/div[1]/div/div/div/div[9]/div/div[34]/h3/a'.</msg>
+<msg time="2025-04-29T17:22:33.198432" level="INFO">Clicks the element 'xpath=//*[@id="post-45869"]/div/div[1]/div/div/div/div[9]/div/div[34]/h3/a'.</msg>
 <arg>xpath=//*[@id="post-45869"]/div/div[1]/div/div/div/div[9]/div/div[34]/h3/a</arg>
 <tag>PageContent</tag>
 <tag>Setter</tag>
 <doc>Simulates mouse click on the element found by ``selector``.</doc>
-<status status="PASS" start="2025-04-29T17:10:25.739825" elapsed="1.878409"/>
+<status status="PASS" start="2025-04-29T17:22:33.198015" elapsed="1.210907"/>
 </kw>
 <kw name="Click" owner="Browser">
-<msg time="2025-04-29T17:10:27.618896" level="INFO">Clicks the element 'xpath=//*[@id="product-35797"]/div[1]/div/div/div/div[2]/div/div/form/button'.</msg>
+<msg time="2025-04-29T17:22:34.409629" level="INFO">Clicks the element 'xpath=//*[@id="product-35797"]/div[1]/div/div/div/div[2]/div/div/form/button'.</msg>
 <arg>xpath=//*[@id="product-35797"]/div[1]/div/div/div/div[2]/div/div/form/button</arg>
 <tag>PageContent</tag>
 <tag>Setter</tag>
 <doc>Simulates mouse click on the element found by ``selector``.</doc>
-<status status="PASS" start="2025-04-29T17:10:27.618484" elapsed="2.319680"/>
+<status status="PASS" start="2025-04-29T17:22:34.409149" elapsed="3.033982"/>
 </kw>
 <kw name="Click" owner="Browser">
-<msg time="2025-04-29T17:10:29.938993" level="INFO">Clicks the element 'xpath=/html/body/div[3]/header/div[2]/div/div[1]/div/a/img'.</msg>
+<msg time="2025-04-29T17:22:37.443853" level="INFO">Clicks the element 'xpath=/html/body/div[3]/header/div[2]/div/div[1]/div/a/img'.</msg>
 <arg>xpath=/html/body/div[3]/header/div[2]/div/div[1]/div/a/img</arg>
 <tag>PageContent</tag>
 <tag>Setter</tag>
 <doc>Simulates mouse click on the element found by ``selector``.</doc>
-<status status="PASS" start="2025-04-29T17:10:29.938539" elapsed="4.778345"/>
+<status status="PASS" start="2025-04-29T17:22:37.443377" elapsed="4.320530"/>
 </kw>
 <kw name="Wait For Elements State" owner="Browser">
-<msg time="2025-04-29T17:10:35.198966" level="INFO">Waited for Element with selector xpath=//*[@id="post-45869"]/div/div[1]/div/div/div/div[9]/div/div[35]/h3/a at state visible</msg>
+<msg time="2025-04-29T17:22:42.101439" level="INFO">Waited for Element with selector xpath=//*[@id="post-45869"]/div/div[1]/div/div/div/div[9]/div/div[35]/h3/a at state visible</msg>
 <arg>xpath=//*[@id="post-45869"]/div/div[1]/div/div/div/div[9]/div/div[35]/h3/a</arg>
 <arg>visible</arg>
 <arg>timeout=10s</arg>
 <tag>PageContent</tag>
 <tag>Wait</tag>
 <doc>Waits for the element found by ``selector`` to satisfy state option.</doc>
-<status status="PASS" start="2025-04-29T17:10:34.717132" elapsed="0.481953"/>
+<status status="PASS" start="2025-04-29T17:22:41.764197" elapsed="0.337407"/>
 </kw>
 <kw name="Click" owner="Browser">
-<msg time="2025-04-29T17:10:35.199737" level="INFO">Clicks the element 'xpath=//*[@id="post-45869"]/div/div[1]/div/div/div/div[9]/div/div[35]/h3/a'.</msg>
+<msg time="2025-04-29T17:22:42.102353" level="INFO">Clicks the element 'xpath=//*[@id="post-45869"]/div/div[1]/div/div/div/div[9]/div/div[35]/h3/a'.</msg>
 <arg>xpath=//*[@id="post-45869"]/div/div[1]/div/div/div/div[9]/div/div[35]/h3/a</arg>
 <tag>PageContent</tag>
 <tag>Setter</tag>
 <doc>Simulates mouse click on the element found by ``selector``.</doc>
-<status status="PASS" start="2025-04-29T17:10:35.199302" elapsed="3.332181"/>
+<status status="PASS" start="2025-04-29T17:22:42.101881" elapsed="3.347368"/>
 </kw>
 <kw name="Select Options By" owner="Browser">
-<msg time="2025-04-29T17:10:38.532271" level="INFO">Selects the option(s) 2 by attribute SelectAttribute.index from element xpath=//*[@id="pa_color"].</msg>
+<msg time="2025-04-29T17:22:45.450017" level="INFO">Selects the option(s) 2 by attribute SelectAttribute.index from element xpath=//*[@id="pa_color"].</msg>
 <arg>xpath=//*[@id="pa_color"]</arg>
 <arg>index</arg>
 <arg>2</arg>
 <tag>PageContent</tag>
 <tag>Setter</tag>
 <doc>Selects options from select element found by ``selector``.</doc>
-<status status="PASS" start="2025-04-29T17:10:38.531797" elapsed="1.394393"/>
+<status status="PASS" start="2025-04-29T17:22:45.449526" elapsed="0.485306"/>
 </kw>
 <kw name="Sleep" owner="BuiltIn">
-<msg time="2025-04-29T17:10:41.927426" level="INFO">Slept 2 seconds.</msg>
+<msg time="2025-04-29T17:22:47.935373" level="INFO">Slept 2 seconds.</msg>
 <arg>2 sec</arg>
 <doc>Pauses the test executed for the given time.</doc>
-<status status="PASS" start="2025-04-29T17:10:39.926739" elapsed="2.000819"/>
+<status status="PASS" start="2025-04-29T17:22:45.935070" elapsed="2.000388"/>
 </kw>
 <kw name="Click" owner="Browser">
-<msg time="2025-04-29T17:10:41.928601" level="INFO">Clicks the element 'xpath=//*[@id="product-1586"]/div[1]/div/div/div/div[2]/div/div/form/div/div[2]/button'.</msg>
+<msg time="2025-04-29T17:22:47.936107" level="INFO">Clicks the element 'xpath=//*[@id="product-1586"]/div[1]/div/div/div/div[2]/div/div/form/div/div[2]/button'.</msg>
 <arg>xpath=//*[@id="product-1586"]/div[1]/div/div/div/div[2]/div/div/form/div/div[2]/button</arg>
 <tag>PageContent</tag>
 <tag>Setter</tag>
 <doc>Simulates mouse click on the element found by ``selector``.</doc>
-<status status="PASS" start="2025-04-29T17:10:41.927930" elapsed="2.072874"/>
+<status status="PASS" start="2025-04-29T17:22:47.935682" elapsed="2.420679"/>
 </kw>
 <kw name="Click" owner="Browser">
-<msg time="2025-04-29T17:10:44.001560" level="INFO">Clicks the element 'xpath=/html/body/div[3]/header/div[2]/div/div[1]/div/a/img'.</msg>
+<msg time="2025-04-29T17:22:50.357148" level="INFO">Clicks the element 'xpath=/html/body/div[3]/header/div[2]/div/div[1]/div/a/img'.</msg>
 <arg>xpath=/html/body/div[3]/header/div[2]/div/div[1]/div/a/img</arg>
 <tag>PageContent</tag>
 <tag>Setter</tag>
 <doc>Simulates mouse click on the element found by ``selector``.</doc>
-<status status="PASS" start="2025-04-29T17:10:44.001105" elapsed="3.447343"/>
+<status status="PASS" start="2025-04-29T17:22:50.356731" elapsed="3.621334"/>
 </kw>
 <kw name="Wait For Elements State" owner="Browser">
-<msg time="2025-04-29T17:10:48.389671" level="INFO">Waited for Element with selector xpath=//*[@id="post-45869"]/div/div[2]/div/div/div/div[2]/div/div[47]/h3/a at state visible</msg>
+<msg time="2025-04-29T17:22:54.342871" level="INFO">Waited for Element with selector xpath=//*[@id="post-45869"]/div/div[2]/div/div/div/div[2]/div/div[47]/h3/a at state visible</msg>
 <arg>xpath=//*[@id="post-45869"]/div/div[2]/div/div/div/div[2]/div/div[47]/h3/a</arg>
 <arg>visible</arg>
 <arg>timeout=10s</arg>
 <tag>PageContent</tag>
 <tag>Wait</tag>
 <doc>Waits for the element found by ``selector`` to satisfy state option.</doc>
-<status status="PASS" start="2025-04-29T17:10:47.448718" elapsed="0.941078"/>
+<status status="PASS" start="2025-04-29T17:22:53.978298" elapsed="0.364760"/>
 </kw>
 <kw name="Click" owner="Browser">
-<msg time="2025-04-29T17:10:48.390531" level="INFO">Clicks the element 'xpath=//*[@id="post-45869"]/div/div[2]/div/div/div/div[2]/div/div[47]/h3/a'.</msg>
+<msg time="2025-04-29T17:22:54.344051" level="INFO">Clicks the element 'xpath=//*[@id="post-45869"]/div/div[2]/div/div/div/div[2]/div/div[47]/h3/a'.</msg>
 <arg>xpath=//*[@id="post-45869"]/div/div[2]/div/div/div/div[2]/div/div[47]/h3/a</arg>
 <tag>PageContent</tag>
 <tag>Setter</tag>
 <doc>Simulates mouse click on the element found by ``selector``.</doc>
-<status status="PASS" start="2025-04-29T17:10:48.390114" elapsed="1.837620"/>
+<status status="PASS" start="2025-04-29T17:22:54.343564" elapsed="2.442572"/>
 </kw>
 <kw name="Select Options By" owner="Browser">
-<msg time="2025-04-29T17:10:50.228462" level="INFO">Selects the option(s) 1 by attribute SelectAttribute.index from element xpath=//*[@id="%e0%b8%aa%e0%b8%b5"].</msg>
+<msg time="2025-04-29T17:22:56.787033" level="INFO">Selects the option(s) 1 by attribute SelectAttribute.index from element xpath=//*[@id="%e0%b8%aa%e0%b8%b5"].</msg>
 <arg>xpath=//*[@id="%e0%b8%aa%e0%b8%b5"]</arg>
 <arg>index</arg>
 <arg>1</arg>
 <tag>PageContent</tag>
 <tag>Setter</tag>
 <doc>Selects options from select element found by ``selector``.</doc>
-<status status="PASS" start="2025-04-29T17:10:50.227965" elapsed="0.199793"/>
+<status status="PASS" start="2025-04-29T17:22:56.786531" elapsed="0.199450"/>
 </kw>
 <kw name="Select Options By" owner="Browser">
-<msg time="2025-04-29T17:10:50.428586" level="INFO">Selects the option(s) 2 by attribute SelectAttribute.index from element xpath=//*[@id="%e0%b8%82%e0%b8%99%e0%b8%b2%e0%b8%94"].</msg>
+<msg time="2025-04-29T17:22:56.986821" level="INFO">Selects the option(s) 2 by attribute SelectAttribute.index from element xpath=//*[@id="%e0%b8%82%e0%b8%99%e0%b8%b2%e0%b8%94"].</msg>
 <arg>xpath=//*[@id="%e0%b8%82%e0%b8%99%e0%b8%b2%e0%b8%94"]</arg>
 <arg>index</arg>
 <arg>2</arg>
 <tag>PageContent</tag>
 <tag>Setter</tag>
 <doc>Selects options from select element found by ``selector``.</doc>
-<status status="PASS" start="2025-04-29T17:10:50.428005" elapsed="0.007804"/>
+<status status="PASS" start="2025-04-29T17:22:56.986352" elapsed="0.009261"/>
 </kw>
 <kw name="Sleep" owner="BuiltIn">
-<msg time="2025-04-29T17:10:52.436891" level="INFO">Slept 2 seconds.</msg>
+<msg time="2025-04-29T17:22:58.996537" level="INFO">Slept 2 seconds.</msg>
 <arg>2 sec</arg>
 <doc>Pauses the test executed for the given time.</doc>
-<status status="PASS" start="2025-04-29T17:10:50.436080" elapsed="2.000898"/>
+<status status="PASS" start="2025-04-29T17:22:56.995905" elapsed="2.000730"/>
 </kw>
 <kw name="Click" owner="Browser">
-<msg time="2025-04-29T17:10:52.437686" level="INFO">Clicks the element 'xpath=//*[@id="product-64119"]/div[1]/div/div/div/div[2]/div/div/form/div/div[2]/button'.</msg>
+<msg time="2025-04-29T17:22:58.997338" level="INFO">Clicks the element 'xpath=//*[@id="product-64119"]/div[1]/div/div/div/div[2]/div/div/form/div/div[2]/button'.</msg>
 <arg>xpath=//*[@id="product-64119"]/div[1]/div/div/div/div[2]/div/div/form/div/div[2]/button</arg>
 <tag>PageContent</tag>
 <tag>Setter</tag>
 <doc>Simulates mouse click on the element found by ``selector``.</doc>
-<status status="PASS" start="2025-04-29T17:10:52.437210" elapsed="1.934697"/>
+<status status="PASS" start="2025-04-29T17:22:58.996856" elapsed="2.107827"/>
 </kw>
 <kw name="Sleep" owner="BuiltIn">
-<msg time="2025-04-29T17:10:59.373254" level="INFO">Slept 5 seconds.</msg>
+<msg time="2025-04-29T17:23:06.105817" level="INFO">Slept 5 seconds.</msg>
 <arg>5 sec</arg>
 <doc>Pauses the test executed for the given time.</doc>
-<status status="PASS" start="2025-04-29T17:10:54.372152" elapsed="5.001291"/>
+<status status="PASS" start="2025-04-29T17:23:01.104961" elapsed="5.000946"/>
 </kw>
-<msg time="2025-04-29T17:10:59.378386" level="INFO">Set timeout to: 10000</msg>
-<msg time="2025-04-29T17:10:59.385764" level="INFO">Switching context to context=ceda7b81-b22f-44f4-af69-40d3c5b802c4 in CURRENT</msg>
-<msg time="2025-04-29T17:10:59.389215" level="INFO">Successfully changed active context: context=ceda7b81-b22f-44f4-af69-40d3c5b802c4</msg>
-<msg time="2025-04-29T17:10:59.421431" level="INFO">Successfully closed Context</msg>
-<status status="PASS" start="2025-04-29T17:10:18.217781" elapsed="41.156413"/>
+<msg time="2025-04-29T17:23:06.108775" level="INFO">Set timeout to: 10000</msg>
+<msg time="2025-04-29T17:23:06.115251" level="INFO">Switching context to context=6a5b4f0b-c41f-4d04-995b-636a48d60fb4 in CURRENT</msg>
+<msg time="2025-04-29T17:23:06.118451" level="INFO">Successfully changed active context: context=6a5b4f0b-c41f-4d04-995b-636a48d60fb4</msg>
+<msg time="2025-04-29T17:23:06.150966" level="INFO">Successfully closed Context</msg>
+<status status="PASS" start="2025-04-29T17:22:24.597176" elapsed="41.508987"/>
 </test>
-<status status="PASS" start="2025-04-29T17:10:18.115519" elapsed="41.306804"/>
+<status status="PASS" start="2025-04-29T17:22:24.431323" elapsed="41.720717"/>
 </suite>
 <statistics>
 <total>
